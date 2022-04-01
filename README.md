@@ -19,7 +19,7 @@ Each generator has a corresponding discriminator model (Discriminator-A and Disc
 * Domain-B -> Discriminator-B -> [Real/Fake]
 * Domain-A -> Generator-B -> Discriminator-B -> [Real/Fake]
 ```
-![This is an image](/home/draz/github/CycleCAN/ouptuts/model_arch.png)
+![This is an image](https://github.com/AhmedAdelDraz/CycleGAN/blob/main/ouptuts/model_arch.png)
 Figure 1. Overview of CycleGAN architecture
 
 ### Losses
@@ -30,7 +30,7 @@ original to ensure that the surrounding pixels are not changed.
 - `Identity loss`: The loss when an image of one class is passed through a
 generator that is expected to convert an image of another class into the class
 of the input image.
-![This is an image](/home/draz/github/CycleCAN/ouptuts/mapping.png)
+![This is an image](https://github.com/AhmedAdelDraz/CycleGAN/blob/main/ouptuts/mapping.png)
 
 ### Expected outputs
-![This is an image](/home/draz/github/CycleCAN/ouptuts/outputs.png)
+![This is an image](https://github.com/AhmedAdelDraz/CycleGAN/blob/main/ouptuts/outputs.png)
